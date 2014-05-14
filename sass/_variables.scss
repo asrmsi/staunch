@@ -1,0 +1,38 @@
+// Variables ////////////////////////////////////
+// Grid Vars ////////////////////////////////////
+
+$column: golden-ratio(1em, 3) !default; // Column width
+$gutter: golden-ratio(1em, 1) !default; // Gutter between each two columns
+$grid-columns: 12 !default; // Total number of columns in the grid
+$max-width: em(1088) !default; // Max-width of the outer container
+$border-box-sizing: true !default; // Makes all elements have a border-box layout
+$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+$default-layout-direction: LTR !default;
+
+$visual-grid: true; // Display the base grid
+$visual-grid-color: #f90 !default;
+$visual-grid-index: back !default; // Show grid behind content (back) or overlay it over the content (front)
+$visual-grid-opacity: 0.4 !default;
+$visual-grid-breakpoints: () !default;
+
+// Breakpoints //////////////////////////////////
+
+$small-screen: min-width 320px;
+$medium-screen: min-width 768px;
+$large-screen: min-width 1024px;
+
+// Colors ///////////////////////////////////////
+$background-color: #fff;
+$accent-color: #3D9970;
+$complement-color: #773954;
+$tertiary-color: #fcb837;
+$analogic-color: #fdf43b;
+$neutral-color: #eee;
+$dark-color: #333;
+
+// Fonts ////////////////////////////////////////
+$heading-font: serif;
+$body-font: sans-serif;
+
+$body-font-color: $dark-color;
+$heading-font-color: $tertiary-color;

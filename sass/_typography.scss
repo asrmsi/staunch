@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: $body-font-color;
+	font-family: $body-font;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: $heading-font;
+	font-weight: 300;
+}
+p {
+	font-size: 1.125em;
+	margin-bottom: 1.5em;
+}
+b, strong {
+	font-weight: 700;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+blockquote {
+	margin: 0 1.5em;
+}
+address {
+	margin: 0 0 1.5em;
+}
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+code, kbd, tt, var {
+	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+sup,
+sub {
+	font-size: 0.797em;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+small {
+	font-size: 0.797em;
+}
+big {
+	font-size: 1.289em;
+}
+h1 {
+	font-size: 3.375em;
+}
+h2 {
+	font-size: 2.945em;
+}
+h3 {
+	font-size: 2.086em;
+}
+h4 {
+	font-size: 1.82em;
+}
+h5 {
+	font-size: 1.289em;
+}
+h6 {
+	font-size: 1.125em;
+}
+.wp-caption-text {
+	font-size: 0.797em;
+}
