@@ -1,0 +1,1 @@
+Put any jquery plugins or standalone scripts in this folder, remember to add them under concat in the gruntfile.

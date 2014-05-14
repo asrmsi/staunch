@@ -1,0 +1,1 @@
+These should be module components of the functions.php file in the theme root.
